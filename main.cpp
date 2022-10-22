@@ -1,9 +1,21 @@
 #include <iostream>
+#include "Batta.hpp"
 
+using namespace strategy;
 
 int main()
 {
+    Le3ba le3ba;
+    le3ba.perform();
 
-    std::cout << "Hello World!" << std::endl;
+    Mescoofy mescoofy;
+    mescoofy.perform();
+
+    Mo7bata mo7bata;
+    mo7bata.perform();
+
+    mo7bata.gotShot();
+    mo7bata.perform();
+
     return 0;
 }
