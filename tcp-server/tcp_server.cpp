@@ -3,11 +3,8 @@
 #include <string>
 #include <vector>
 #include <boost/asio.hpp>
-#include <dlt/dlt.h>
 
 using boost::asio::ip::tcp;
-
-DLT_DECLARE_CONTEXT(serviceContext);
 
 int main(int argc, char **argv)
 {
