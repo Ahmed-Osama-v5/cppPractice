@@ -10,3 +10,5 @@ set(SOURCES "main.cpp"
 add_executable(${TARGET} ${SOURCES})
 
 target_include_directories(${TARGET} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Strategy_Pattern_Example")
+
+#add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/tcp-server)
