@@ -3,6 +3,10 @@
 
 #include <iostream>
 #include <string>
+#include <math.h>
+
+
+double squareRoot(const double a);
 
 namespace strategy
 {

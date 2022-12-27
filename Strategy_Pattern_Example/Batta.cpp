@@ -1,6 +1,15 @@
 #include <iostream>
 #include "Batta.hpp"
 
+
+double squareRoot(const double a) {
+    double b = sqrt(a);
+    if(b != b) { // nan check
+        return -1.0;
+    }else{
+        return sqrt(a);
+    }
+}
 namespace strategy
 {
     int Batta::m_counter = 0;
