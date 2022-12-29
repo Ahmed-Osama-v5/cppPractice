@@ -12,7 +12,10 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 set(TEST_SOURCES    mainTest.cpp
                     ${CMAKE_SOURCE_DIR}/calc.cpp
-                    calcTest.cpp)
+                    ${CMAKE_SOURCE_DIR}/exampleClass.cpp
+                    ${CMAKE_SOURCE_DIR}/Student.cpp
+                    calcTest.cpp
+                    exampleClassTest.cpp)
 
 include_directories(${CMAKE_SOURCE_DIR})
 

@@ -1,21 +1,19 @@
 #include <iostream>
-#include "Batta.hpp"
-
-using namespace strategy;
+#include "exampleClass.hpp"
+#include "Student.hpp"
 
 int main()
 {
-    Le3ba le3ba;
-    le3ba.perform();
+    gradStudent Ahmed;
+    Ahmed.setName("Ahmed");
+    Ahmed.setProfession("Engineer");
+    std::cout << "Name: " << Ahmed.getName() << std::endl;
+    std::cout << "Profession: " << Ahmed.getProfession() << std::endl;
 
-    Mescoofy mescoofy;
-    mescoofy.perform();
 
-    Mo7bata mo7bata;
-    mo7bata.perform();
-
-    mo7bata.gotShot();
-    mo7bata.perform();
+    Student Mahmoud;
+    Mahmoud.setName("Mahmoud");
+    std::cout << "Name: " << Mahmoud.getName() << std::endl;
 
     return 0;
 }
