@@ -19,7 +19,7 @@ private:
 
 TEST_F(mathTest, sum)
 {
-    EXPECT_EQ(6, obj.sum(2, 3));
+    EXPECT_EQ(5, obj.sum(2, 3));
 }
 
 TEST(add, addSum)
