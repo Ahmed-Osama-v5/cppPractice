@@ -5,7 +5,7 @@
 
 class exampleClassTest : public testing::Test
 {
-public:
+protected:
     gradStudent Ahmed;
     //Student &student = Ahmed.m_student;
 private:
