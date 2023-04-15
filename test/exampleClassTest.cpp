@@ -7,7 +7,7 @@ class exampleClassTest : public testing::Test
 {
 public:
     gradStudent Ahmed;
-    Student &student = Ahmed.m_student;
+    //Student &student = Ahmed.m_student;
 private:
     void SetUp() override
     {

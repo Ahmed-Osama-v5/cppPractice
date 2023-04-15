@@ -4,6 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
+                "${workspaceFolder}",
+                "${workspaceFolder}/test",
                 "${workspaceFolder}/Strategy_Pattern_Example/"
             ],
             "defines": [],
