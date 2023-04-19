@@ -1,3 +1,4 @@
+#include <cstdint>
 #include <iostream>
 #include "Student.hpp"
 
@@ -11,9 +12,14 @@ void Student::init()
     std::cout << "Student Init." << std::endl;
 }
 
-void Student::setName(std::string name)
+void Student::setName(const std::string name)
 {
     m_name = name;
+}
+
+void Student::setAge(uint8_t age)
+{
+    m_age = age;
 }
 
 std::string Student::getName()
